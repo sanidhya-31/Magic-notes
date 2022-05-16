@@ -59,7 +59,7 @@ function deleteNote(index) {
 
   notesObj.splice(index, 1);
   localStorage.setItem("notes", JSON.stringify(notesObj));
-  showNotes();
+  showNotes(); 
 }
 
 
